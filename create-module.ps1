@@ -45,7 +45,7 @@ $appContent = @"
     <ProjectReference Include="..\..\..\BuildingBlocks\Infrastructure\BuildingBlocks.Infrastructure.csproj" />
     <ProjectReference Include="..\Domain\$domainProjName.csproj" />
     <ProjectReference Include="..\..\..\BuildingBlocks\Application\BuildingBlocks.Application.csproj" />
-    <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
     <PackageReference Include="FluentValidation" Version="12.1.1" />
   </ItemGroup>
   <PropertyGroup>
