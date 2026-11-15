@@ -63,10 +63,11 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// 5. Modüllerin Otomatik Keşfi ve Kaydı (IdentityModule vb.)
+// 5. Modüllerin Otomatik Keşfi ve Kaydı (IdentityModule, EventsModule vb.)
 builder.Services.AddModules(
     builder.Configuration,
-    typeof(IdentityModule).Assembly
+    typeof(IdentityModule).Assembly,
+    typeof(Modules.Events.Infrastructure.EventsModule).Assembly
 );
 
 var app = builder.Build();

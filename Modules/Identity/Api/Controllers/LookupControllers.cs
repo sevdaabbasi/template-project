@@ -7,7 +7,7 @@ using Modules.Identity.Application.Features.Lookups;
 namespace Modules.Identity.Api.Controllers;
 
 [ApiController]
-[Route("api/v1/cities")]
+[Route("api/cities")]
 [AllowAnonymous]
 public class CitiesController : ControllerBase
 {
@@ -30,7 +30,7 @@ public class CitiesController : ControllerBase
 }
 
 [ApiController]
-[Route("api/v1/interests")]
+[Route("api/interests")]
 [AllowAnonymous]
 public class InterestsController : ControllerBase
 {

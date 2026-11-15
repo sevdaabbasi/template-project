@@ -8,7 +8,7 @@ using Modules.Identity.Application.Features.Auth;
 namespace Modules.Identity.Api.Controllers;
 
 [ApiController]
-[Route("api/v1/auth")]
+[Route("api/auth")]
 public class AuthController : ControllerBase
 {
     private readonly ISender _sender;

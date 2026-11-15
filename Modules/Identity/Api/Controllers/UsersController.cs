@@ -9,7 +9,7 @@ using Modules.Identity.Domain.Enums;
 namespace Modules.Identity.Api.Controllers;
 
 [ApiController]
-[Route("api/v1/users")]
+[Route("api/users")]
 [Authorize]
 public class UsersController : ControllerBase
 {
